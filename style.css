@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.header {
+  margin: 5px 0px;
+  background: #7030cc;
+  width: 1519px;
+  height: 640px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  text-align: -webkit-auto;
+}
+.logo {
+  margin: 20px 90px;
+  width: 11%;
+  height: auto;
+}
+.nav-items {
+  list-style: none;
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 640px;
+}
+.nav-item {
+  font-weight: 100;
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav-item:hover {
+  color: #567dea;
+  text-decoration-line: underline;
+  text-decoration-color: #686868;
+}
+.btn {
+  position: absolute;
+  top: 24px;
+  left: 1250px;
+  background: #1bbcef;
+  border-color: #1bbcef;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+}
+h1 {
+  position: absolute;
+  top: 170px;
+  left: 92px;
+  font-size: 54px;
+}
+.par {
+  position: absolute;
+  top: 370px;
+  left: 92px;
+}
+.header-img {
+  position: absolute;
+  top: 90px;
+  left: 650px;
+  width: 640px;
+}
+/* header section done */
+.system-img {
+  position: relative;
+  top: 60px;
+  width: 640px;
+  left: 100px;
+}
+h2 {
+  position: relative;
+  top: -380px;
+  left: 900px;
+  font-size: 34px;
+}
+.or {
+  color: orange;
+}
+.gr {
+  color: green;
+}
+.bl {
+  color: blue;
+}
+h3 {
+  position: relative;
+  top: -350px;
+  left: 920px;
+  font-size: 23px;
+  margin: 10px 0px;
+}
+.p {
+  position: relative;
+  top: -350px;
+  left: 950px;
+}
+/* system options section done */
+.header3 {
+  position: relative;
+  top: -200px;
+  left: 00px;
+  font-size: 40px;
+  text-align: center;
+}
+.container1 {
+  position: relative;
+  left: 450px;
+  top: -150px;
+  background: #ffffff;
+  width: 146px;
+  height: 180px;
+  border-radius: 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0px 5px;
+  box-shadow: 3px 2px #575757;
+}
+.icon-1 {
+  position: relative;
+  top: 10px;
+  left: 40px;
+  width: 53px;
+  height: 53px;
+  background-color: #ffffff1a;
+  border-radius: 1rem;
+  border-color: #ffffff14;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+h4 {
+  position: relative;
+  top: 18px;
+  font-size: 20px;
+  text-align: center;
+}
+.last-par {
+  position: relative;
+  top: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 626px) and (max-width: 803px) {
+  .header {
+    width: 994px;
+    height: 640px;
+  }
+  .logo {
+    margin: 30px 30px;
+    width: 17%;
+    height: auto;
+  }
+  .nav-items {
+    font-size: 26px;
+    position: absolute;
+    top: 45px;
+    left: 450px;
+    margin: 0px -200px;
+  }
+  .nav-item {
+    margin: 0 10px;
+  }
+  .btn {
+    position: absolute;
+    top: 477px;
+    left: 10px;
+  }
+  h1 {
+    position: absolute;
+    top: 170px;
+    left: 12px;
+  }
+  .par {
+    position: absolute;
+    top: 370px;
+    left: 12px;
+  }
+  .header-img {
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 440px;
+  }
+  /* header section done */
+  .system-img {
+    position: relative;
+    top: 60px;
+    width: 500px;
+    left: -46px;
+  }
+  h2 {
+    position: relative;
+    top: -350px;
+    left: 440px;
+    font-size: 32px;
+  }
+  h3 {
+    position: relative;
+    top: -320px;
+    left: 440px;
+    font-size: 26px;
+  }
+  .p {
+    position: relative;
+    top: -320px;
+    left: 470px;
+  }
+  /* system options section done */
+  .header3 {
+    position: relative;
+    top: -200px;
+    left: 100px;
+  }
+  .container1 {
+    position: relative;
+    left: 20px;
+    top: -150px;
+    width: 166px;
+    height: 190px;
+    font-size: 20px;
+    margin: 0px 10px;
+  }
+  .icon-1 {
+    width: 67px;
+    height: 63px;
+  }
+  h4 {
+    font-size: 23px;
+  }
+  .last-par {
+    font-size: 17px;
+  }
+}
